@@ -943,9 +943,6 @@
      <property name="text">
       <string>DETECT SD CARD</string>
      </property>
-     <property name="flat">
-      <bool>true</bool>
-     </property>
     </widget>
     <widget class="QLabel" name="emuNANDdevice">
      <property name="geometry">
@@ -1072,9 +1069,6 @@
       <string>DETECT NAND
 MANUFACTURER</string>
      </property>
-     <property name="flat">
-      <bool>true</bool>
-     </property>
     </widget>
     <widget class="QRadioButton" name="toshibaNAND">
      <property name="geometry">
@@ -1179,14 +1173,14 @@ MANUFACTURER</string>
     <widget class="QCheckBox" name="cfwmode">
      <property name="geometry">
       <rect>
-       <x>390</x>
+       <x>370</x>
        <y>390</y>
-       <width>111</width>
+       <width>131</width>
        <height>22</height>
       </rect>
      </property>
      <property name="text">
-      <string>CFW Mode</string>
+      <string>redNAND Mode</string>
      </property>
     </widget>
     <widget class="QPushButton" name="cfwhelp">

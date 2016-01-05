@@ -104,6 +104,7 @@ void MainWindow::on_detectemuNAND_clicked()
                     emunanddevice=emunanddevice.remove(emunanddevice.length()-1, 1);
                     if((emunanddevice.endsWith("p")|emunanddevice.endsWith("s")))
                         emunanddevice=emunanddevice.remove(emunanddevice.length()-1, 2);
+                    emunanddevice.replace("/dev/disk", "/dev/rdisk");
                 }
             }
         }
